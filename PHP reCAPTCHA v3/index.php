@@ -38,7 +38,7 @@
     <script src="https://www.google.com/recaptcha/api.js?render=6Leee8cUAAAAAI5CepD3Fa4qxaAVOqK9A2xKz1wq"></script>
     <script>
     grecaptcha.ready(function() {
-        grecaptcha.execute('6Leee8cUAAAAAI5CepD3Fa4qxaAVOqK9A2xKz1wq', {action: 'homepage'}).then(function(token) {
+        grecaptcha.execute('sitekey, {action: 'homepage'}).then(function(token) {
             document.getElementById("token").value = token;
         });
     });
